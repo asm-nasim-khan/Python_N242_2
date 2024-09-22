@@ -45,19 +45,38 @@ my_dict2 = {'Mango': 10, 'Banana': 15, 'Apple': 25}
 
 # print(my_dict2['Nested'][1][1][1])
 # Type checking
-print(type([1,2,3,4]))
-print(type((1,2,3,4)))
-print(type({1,2,3,4}))
-print(type(my_dict2))
+# print(type([1,2,3,4]))
+# print(type((1,2,3,4)))
+# print(type({1,2,3,4}))
+# print(type(my_dict2))
 
 # Type Casting
 # x = 10.9
 # y = int(x)
 # print(y)
 
-x = 10
-y = float(x)
-print(y)
+# x = 10
+# y = float(x)
+# print(y)
 
 
+# Assignment
+
+# 1. Given that,
+# nested_dict = {
+#     'Fruits': {'Apple': 10, 'Banana': 20},
+#     'Vegetables': {'Carrot': 5, 'Broccoli': 8}
+# }
+# Access and print the quantity of Broccoli.
+# Add a new vegetable Spinach with a quantity of 12 to the Vegetables key
+
+nested_dict = {
+    'Fruits': {'Apple': 10, 'Banana': 20},
+    'Vegetables': {'Carrot': 5, 'Broccoli': 8}
+}
+
+print(nested_dict['Vegetables']['Broccoli'])
+# nested_dict['Vegetables']['Spinach'] = 12
+# nested_dict['Vegetables'].update({'Spinach':12})
+print(nested_dict)
 
