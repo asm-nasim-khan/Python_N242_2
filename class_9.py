@@ -2,10 +2,11 @@
 
 #Tuples 
 
-# lst = [2,3,4]
+lst = [2,3,4]
 
-# lst[0] = 5
-# lst[1] = 10
+lst[0] = 5
+lst[1] = 10
+
 
 
 # print(lst)
