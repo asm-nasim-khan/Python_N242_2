@@ -93,15 +93,22 @@ num = 23
 
 
 
-user_number =int(input("entre a number:"))
+# user_number =int(input("entre a number:"))
 
-if user_number>0:
-    print("positive")
+# if user_number>0:
+#     print("positive")
+# else:
+#     if user_number == 0:
+#         print('Zero')
+#     else:
+#         print("negative")
+
+# result = "positive" if user_number > 0 else "Zero" if user_number == 0 else "Negative"
+# print(result)
+
+year = 2000
+if year%400 == 0 or (year%4 == 0 and  year%100 != 0):
+    print('Leap Year')
 else:
-    if user_number == 0:
-        print('Zero')
-    else:
-        print("negative")
-
-result ="positive" if user_number > 0 else "Zero" if user_number == 0 else "Negative"
-print(result)
+    print("Not Leap year")
+print("done")
