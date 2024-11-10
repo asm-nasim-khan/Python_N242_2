@@ -146,8 +146,8 @@ class Shape():
 
 rectangle = Shape("Rectangle",4)
 triangle = Shape("Triangle",2)
-
-house = rectangle + triangle # Problem 1
-print(rectangle) # Problem 2
-print(house.area)
+print(rectangle)
+# house = rectangle + triangle # Problem 1
+# print(rectangle) # Problem 2
+# print(house.area)
 
