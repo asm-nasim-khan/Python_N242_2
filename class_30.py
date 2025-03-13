@@ -55,3 +55,5 @@ lst = [5,1,9,6,3]
 #             min_loc = j
 #     lst[i],lst[min_loc] = lst[min_loc] , lst[i]
 # print(lst)
+
+
